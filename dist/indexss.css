@@ -1,0 +1,11 @@
+body{
+    background: #111111;
+}
+
+div.container-one{
+    background: black;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+}
+
