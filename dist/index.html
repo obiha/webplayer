@@ -10,22 +10,28 @@
 <body>
 
     <div class="container-one">
-        <video width="80%" controls>
+        <video class="video-player" width="80%" controls>
             <source src="" type="video/mp4">
             <source src="" type="video/mp4">
             <source src="" type="video/ogg">
-            <source src="" type="video/webn"
-            <source src="" type="video/mp3"    
+            <source src="" type="video/webn">
+            <source src="" type="video/mp3">    
             Browser does not support HTML5 video.    
         </video> 
-
-
     </div>
 
-    <script type="text/javascript">
-    var vlc = document.getElementById("vlc");
-    vlc.audio.toggleMute();
-    </script>
+    <div class="container-two">
+    <form class="search" action=""><input type="text" placeholder="URL" name="input">
+    </form>
+    </div>
+
+    <div class="container-three">
+        <ul class="option">
+            <li><a href="collection.html">History</a></li>
+            <li><a href=""> Livestream</a></li>
+            <li><a href="musicplayer.html"> Music</a></li>
+        </ul>
+    </div>
     
 </body>
 </html>

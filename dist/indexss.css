@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 body{
     background: #111111;
 }
@@ -7,5 +8,61 @@ div.container-one{
     justify-content: center;
     text-align: center;
     height: 80%;
+    
 }
 
+video.video-player {
+    max-height: 10%;
+    width: 100%;
+}
+
+
+div.container-two{
+    padding: 150px;
+}
+
+form.search{
+    text-align: center;
+    
+}
+form.search input{
+    padding: 20px;
+    width: 50%;
+    color: #111111;
+}
+
+form.search::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+div.container-three{
+    background: #444444;
+    padding: 20px;
+    
+    
+}
+
+
+ul.option{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  
+} 
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    display: block;
+    padding: 1em 1em;
+    color: white;
+      
+}
+
+ul li a:hover {
+    background-color: #333333;
+    color: white;
+}
